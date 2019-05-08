@@ -1,0 +1,26 @@
+{
+  "name"        : "varunsridharan/vsp-sniff",
+  "description" : "Collection of PHP_CodeSniffer sniffs for VSP Related Plugins.",
+  "type"        : "phpcodesniffer-standard",
+  "support"     : {
+	"email"  : "varunsridharan23@gmail.com",
+	"docs"   : "https://docs.wponion.com",
+	"issues" : "https://github.com/varunsridharan/vsp-sniff/issues"
+  },
+  "require"     : {
+	"phpcompatibility/phpcompatibility-wp"           : "2.0.0",
+	"wp-coding-standards/wpcs"                       : "^2.1",
+	"dealerdirect/phpcodesniffer-composer-installer" : "^0.5.0"
+  },
+  "homepage"    : "https://github.com/wponion/wponion-sniffs/",
+  "license"     : "GPL-3.0-or-later",
+  "keywords"    : [ ],
+  "authors"     : [
+	{
+	  "name"     : "Varun Sridharan",
+	  "email"    : "varunsridharan23@gmail.com",
+	  "homepage" : "http://varunsridharan.in",
+	  "role"     : "Developer"
+	}
+  ]
+}
