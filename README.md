@@ -4,11 +4,9 @@
 ## ⚙️Installation
 The preferred way to install this extension is through [Composer](https://sva.onl/composer/).
 
-To install **VSP_Framework library**, simply:
+To install **varunsridharan/PHP-Sniff**, simply:
 
     $ composer require varunsridharan/php-sniff
-
-
 
 ---
 
