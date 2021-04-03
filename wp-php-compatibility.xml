@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+
 <ruleset name="VS-WordPress-PHP-Compatibility">
     <description>Apply PHP compatibility checks to WordPress Plugin files</description>
 
