@@ -1,6 +1,6 @@
 {
-  "name"        : "varunsridharan/vsp-sniff",
-  "description" : "Collection of PHP_CodeSniffer sniffs for VSP Related Plugins.",
+  "name"        : "varunsridharan/php-sniff",
+  "description" : "Collection of PHP Coding Standards & Compatibility Rules Set for My Projects.",
   "type"        : "phpcodesniffer-standard",
   "support"     : {
 	"email"  : "varunsridharan23@gmail.com",
@@ -8,10 +8,10 @@
 	"issues" : "https://github.com/varunsridharan/vsp-sniff/issues"
   },
   "require"     : {
-	"wp-coding-standards/wpcs": ">=2.1",
-        "phpcompatibility/php-compatibility": ">=9.1",
-        "dealerdirect/phpcodesniffer-composer-installer": ">=0.5.0",
-        "phpcompatibility/phpcompatibility-wp": ">=2.0"
+	"wp-coding-standards/wpcs"                       : ">=2.1",
+	"phpcompatibility/php-compatibility"             : ">=9.1",
+	"dealerdirect/phpcodesniffer-composer-installer" : ">=0.5.0",
+	"phpcompatibility/phpcompatibility-wp"           : ">=2.0"
   },
   "homepage"    : "https://github.com/wponion/wponion-sniffs/",
   "license"     : "GPL-3.0-or-later",

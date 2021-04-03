@@ -1,4 +1,14 @@
-# VSP Sniff
+# PHP Sniff
+~ Collection of PHP Coding Standards & Compatibility Rules Set for My Projects ~
+
+## ⚙️Installation
+The preferred way to install this extension is through [Composer][composer].
+
+To install **VSP_Framework library**, simply:
+
+    $ composer require varunsridharan/php-sniff
+
+
 
 ---
 
