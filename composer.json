@@ -4,8 +4,8 @@
   "type"        : "phpcodesniffer-standard",
   "support"     : {
 	"email"  : "varunsridharan23@gmail.com",
-	"docs"   : "https://docs.wponion.com",
-	"issues" : "https://github.com/varunsridharan/vsp-sniff/issues"
+	"docs"   : "https://github.com/varunsridharan/php-sniff",
+	"issues" : "https://github.com/varunsridharan/php-sniff/issues"
   },
   "require"     : {
 	"wp-coding-standards/wpcs"                       : ">=2.1",
@@ -13,9 +13,27 @@
 	"dealerdirect/phpcodesniffer-composer-installer" : ">=0.5.0",
 	"phpcompatibility/phpcompatibility-wp"           : ">=2.0"
   },
-  "homepage"    : "https://github.com/wponion/wponion-sniffs/",
+  "homepage"    : "https://github.com/varunsridharan/php-sniff/",
   "license"     : "GPL-3.0-or-later",
-  "keywords"    : [ ],
+  "keywords"    : [
+	"php",
+	"wordpress",
+	"php-codesniffer",
+	"wp-theme",
+	"wp-plugin",
+	"phpcs",
+	"phpcodesniffer-standard",
+	"wordpress-standards",
+	"phpcodesniffer-rules",
+	"php-code-sniffer",
+	"phpcompatibility-standard",
+	"phpcompatibility",
+	"phpcodesniffer",
+	"phpcs-standard",
+	"wpcs",
+	"php-compatibility",
+	"php-standard"
+  ],
   "authors"     : [
 	{
 	  "name"     : "Varun Sridharan",
