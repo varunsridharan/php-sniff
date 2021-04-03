@@ -2,7 +2,7 @@
 ~ Collection of PHP Coding Standards & Compatibility Rules Set for My Projects ~
 
 ## ⚙️Installation
-The preferred way to install this extension is through [Composer][composer].
+The preferred way to install this extension is through [Composer](https://sva.onl/composer/).
 
 To install **VSP_Framework library**, simply:
 
