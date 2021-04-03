@@ -12,13 +12,13 @@ To install **varunsridharan/PHP-Sniff**, simply:
 
 <!-- START contributing.mustache  -->
 ## 🤝 Contributing
-If you would like to help, please take a look at the list of [issues](https://github.com/varunsridharan/vsp-sniff/issues/).
+If you would like to help, please take a look at the list of [issues](https://github.com/varunsridharan/php-sniff/issues/).
 
 <!-- END contributing.mustache  -->
 
 <!-- START license-and-conduct.mustache -->
 ## 📜  License & Conduct
-- [**GNU General Public License v3.0**](https://github.com/varunsridharan/vsp-sniff/blob/main/LICENSE) © [Varun Sridharan](website)
+- [**GNU General Public License v3.0**](https://github.com/varunsridharan/php-sniff/blob/main/LICENSE) © [Varun Sridharan](website)
 - [Code of Conduct](https://github.com/varunsridharan/.github/blob/master/CODE_OF_CONDUCT.md)
 
 <!-- END license-and-conduct.mustache -->
@@ -26,7 +26,7 @@ If you would like to help, please take a look at the list of [issues](https://gi
 <!-- START feedback.mustache -->
 ## 📣 Feedback
 - ⭐ This repository if this project helped you! :wink:
-- Create An [🔧 Issue](https://github.com/varunsridharan/vsp-sniff/issues/) if you need help / found a bug
+- Create An [🔧 Issue](https://github.com/varunsridharan/php-sniff/issues/) if you need help / found a bug
 
 <!-- END feedback.mustache -->
 
