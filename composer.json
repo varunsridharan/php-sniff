@@ -8,10 +8,10 @@
 	"issues" : "https://github.com/varunsridharan/php-sniff/issues"
   },
   "require"     : {
-	"wp-coding-standards/wpcs"                       : ">=2.1",
-	"phpcompatibility/php-compatibility"             : ">=9.1",
-	"dealerdirect/phpcodesniffer-composer-installer" : ">=0.5.0",
-	"phpcompatibility/phpcompatibility-wp"           : ">=2.0"
+	"wp-coding-standards/wpcs"                       : "*",
+	"phpcompatibility/php-compatibility"             : "*",
+	"dealerdirect/phpcodesniffer-composer-installer" : "*",
+	"phpcompatibility/phpcompatibility-wp"           : "*"
   },
   "homepage"    : "https://github.com/varunsridharan/php-sniff/",
   "license"     : "GPL-3.0-or-later",
