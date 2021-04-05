@@ -25,7 +25,7 @@
     <!-- Show sniff codes in all reports. -->
     <arg value="ps"/>
 
-    <!-- <file>.</file> -->
+    <file>./</file>
 
     <rule ref="WordPress-Core"/>
     <rule ref="WordPress.CodeAnalysis.EmptyStatement"/>
