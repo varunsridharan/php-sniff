@@ -3,10 +3,13 @@
 <ruleset name="VS-WordPress-PHP-Compatibility">
     <description>Apply PHP compatibility checks to WordPress Plugin files</description>
 
+    <!-- Sets the minimum supported WP version to 4.7, which is over a year old. -->
+    <config name="minimum_supported_wp_version" value="4.8"/>
+
     <rule ref="PHPCompatibilityWP"/>
 
     <!-- WordPress Core currently supports PHP 5.6+. -->
-    <config name="testVersion" value="5.3-"/>
+    <config name="testVersion" value="5.6-"/>
 
     <!-- Only scan PHP files. -->
     <arg name="extensions" value="php"/>
@@ -33,13 +36,13 @@
     <!--<file>./src/</file>-->
     <file>./</file>
 
-    <!-- Code which doesn't go into production may have different requirements. -->
-    <exclude-pattern>/node_modules/*</exclude-pattern>
-
-    <!--
-        Currently, there are no dependencies managed by Composer.
-        This will need to be modified when that changes to ensure external packages meet compatibility requirements.
-    -->
-    <exclude-pattern>/vendor/*</exclude-pattern>
+    <exclude-pattern>*/phpunit.xml*</exclude-pattern>
+    <exclude-pattern>*/languages/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+    <exclude-pattern>*/bower-components/*</exclude-pattern>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/.github/*</exclude-pattern>
+    <exclude-pattern>*\.(css|js)</exclude-pattern>
 
 </ruleset>

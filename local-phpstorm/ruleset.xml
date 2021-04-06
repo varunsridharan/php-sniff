@@ -2,7 +2,7 @@
 <ruleset name="VSP-Core">
 
     <!-- Sets the minimum supported WP version to 4.7, which is over a year old. -->
-    <config name="minimum_supported_wp_version" value="4.7"/>
+    <config name="minimum_supported_wp_version" value="4.8"/>
 
     <!-- PHP version check. -->
     <config name="testVersion" value="5.6-"/>
