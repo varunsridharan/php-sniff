@@ -8,6 +8,23 @@ To install **varunsridharan/PHP-Sniff**, simply:
 
     $ composer require varunsridharan/php-sniff
 
+### Required Packages
+    composer require dealerdirect/phpcodesniffer-composer-installer
+    composer require phpcompatibility/php-compatibility
+    composer require phpcompatibility/phpcompatibility-wp
+    composer require wp-coding-standards/wpcs
+
+---
+
+## `vs-php-compatibility`
+Contains rules related to PHP Compatibility
+
+## `vs-wp-php-coding-standards`
+Contains rules related to WordPress coding standards
+
+## `vs-local-phpstorm`
+This rule set is contains both `vs-php-compatibility` AND `vs-wp-php-coding-standards` rules to make it work in my local PHPStorm
+
 ---
 
 <!-- START contributing.mustache  -->
